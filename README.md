@@ -12,6 +12,13 @@ Steps to import and start the project.
 5. if you are on intellij just right click on the project then click Run 'all tests' with coverage, it will generate a report for the covered lines, and as you will find it will be 100% for service and controller layers.
 
 
+** Start the project from command line **
+1. download the project
+2. open command line or poweshell then cd .\retail-store-app-main\.
+3. then type mvn clean install. it will build the project and generates a jar file.
+4. then type java -jar retail-store-discounts-0.0.1-SNAPSHOT.jar to start the project.
+
+
 if you are not on intellij add the jacoco plugin to pom.xml then re-run all the tests it will generate jacoco report under target folder.
 
 <plugin>
